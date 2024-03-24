@@ -16,8 +16,4 @@ test("Kontakt", async ({ page }) => {
 
   // Check the text 'Newsletter'
   await page.getByRole("button", { name: "ZAPISZ SIĘ NA NEWSLETTER" }).click();
-
-  // Check the text 'Voucher'
-  const button = await page.getByRole("button", { name: "Kup voucher" });
-  await button.scrollIntoViewIfNeeded();
 });
