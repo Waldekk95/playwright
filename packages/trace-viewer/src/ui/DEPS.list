@@ -1,8 +1,0 @@
-[*]
-@injected/**
-@isomorphic/**
-@trace/**
-@web/**
-../entries.ts
-../geometry.ts
-../../../playwright/src/isomorphic/**
